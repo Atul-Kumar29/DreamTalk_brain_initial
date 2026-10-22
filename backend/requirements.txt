@@ -1,0 +1,7 @@
+fastapi==0.156.8
+uvicorn[standard]==0.38.0
+langchain-core==1.0.7
+langchain-openai==1.0.3
+SQLAlchemy==2.0.44
+pydantic-settings==2.11.0
+python-dotenv==1.2.1
