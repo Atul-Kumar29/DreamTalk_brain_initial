@@ -114,9 +114,9 @@ Open `http://localhost:3000`.
 ## Important MVP limits
 
 - SQLite is used to keep local setup simple; migrate to PostgreSQL before multi-user deployment.
-- There is no authentication, user isolation, streaming, or rate limiting yet. Do not deploy this as a public service without adding them.
+- There is no authentication, user isolation, streaming, or rate limiting yet.
 - The emotion label is an approximate model-generated signal, not a measurement of a person's actual emotional state.
-- The MVP stores chat text locally in `backend/dreamtalk.db`. Treat it as sensitive data.
+- The MVP stores chat text locally in `backend/dreamtalk.db`. 
 - API keys belong only in `backend/.env`, never in the frontend or committed source.
 - Google Fonts are loaded remotely by the stylesheet; the app still functions if they are blocked, using fallback fonts.
 
